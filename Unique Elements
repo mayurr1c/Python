@@ -1,0 +1,6 @@
+def unique_list(lst):
+  llnd=[]
+  for i in range(0,len(lst)):
+    if lst[i] not in llnd:
+      llnd.append(lst[i])
+  return llnd
