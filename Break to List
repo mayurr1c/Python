@@ -1,0 +1,5 @@
+new = st.split()
+words =[]
+for i in new:
+  words.append(i[0])
+print(words) 
