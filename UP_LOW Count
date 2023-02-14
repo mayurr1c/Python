@@ -1,0 +1,10 @@
+def up_low(s):
+  upper=lower=0
+  for i in range(0,len(s)):
+    if s[i].isupper():
+      upper+=1
+    elif s[i].islower():
+      lower+=1
+    else:
+      continue
+  print("Upper numbers {} \nLower Letters {}".format (upper,lower))
