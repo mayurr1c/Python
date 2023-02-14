@@ -1,0 +1,6 @@
+def animal_crackers(a):
+  mylist=a.split()
+  first_word = mylist[0]
+  second_word = mylist[1]
+
+  return first_word[0]==second_word[0]
