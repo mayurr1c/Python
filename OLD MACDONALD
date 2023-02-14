@@ -1,0 +1,8 @@
+def old_macdonald(name):
+  final_string =""
+  for i in range(len(name)):
+      if i==3 or i==0:
+        final_string=final_string+name[i].upper()
+      else:
+        final_string=final_string+name[i]
+  return final_string
