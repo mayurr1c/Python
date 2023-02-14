@@ -1,0 +1,5 @@
+a=int(input("Please enter first"))
+b=int(input("Please enter second"))
+
+c=a+b
+print(c)
