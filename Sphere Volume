@@ -1,0 +1,2 @@
+def vol(rad):
+    return (4*22/21)*(rad**3)
