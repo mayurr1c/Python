@@ -1,0 +1,2 @@
+def return_even(nlist):
+  return [even for even in nlist if even%2==0]
