@@ -1,0 +1,5 @@
+def multiply(numbers):  
+  mul=1
+  for i in range(0,len(numbers)):
+    mul=mul*numbers[i]
+  return mul
