@@ -1,0 +1,7 @@
+def evlist(nlist):
+  for i in nlist:
+    if evenchk(i):
+      return True
+    else:
+      pass
+  return "No even found"
