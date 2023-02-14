@@ -1,0 +1,5 @@
+def paper_doll(text):
+  f=""
+  for i in range(0,len(text)):
+    f+=(text[i]*3)
+  return f
