@@ -1,0 +1,8 @@
+def myfunc(a):
+    blank = ""
+    for b in range(len(a)):
+      if b%2==0:
+        blank=blank+a[b].lower()
+      else:
+        blank=blank+a[b].upper()
+    return blank
