@@ -1,0 +1,9 @@
+def palindrome(s):
+  a=len(s)
+  b=False
+  for i in range(0,a):
+    if s[i]==s[a-1-i]:
+      b=True
+    else:
+      b=False
+  return b
