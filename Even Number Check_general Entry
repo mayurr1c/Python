@@ -1,0 +1,3 @@
+def evenchk(a):
+  return a%2==0
+  
