@@ -1,0 +1,17 @@
+def summer_69(arr):
+  s=0
+  if arr[0]==6:
+    a=True
+  else:
+    a=False
+  for i in range(0,len(arr)):
+    if a==True:
+      if arr[i]==9:
+        a=False
+      pass
+    elif arr[i]==6:
+      a=True
+      pass
+    else:
+      s+=arr[i]
+  return s
